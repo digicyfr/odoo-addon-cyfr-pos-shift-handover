@@ -5,3 +5,9 @@ Bezpłatny, niezależnie instalowany moduł `cyfr_pos_shift_handover` na licencj
 Gałąź `19.0` służy do utrzymania wersji Odoo 19. Gałąź `19.0.1.0.0` zawiera kod dokładnie tego wydania i pozostaje bez zmian po publikacji. Tag `cyfr_pos_shift_handover-19.0.1.0.0` wskazuje archiwum ZIP, plik SHA-256 i dowody testów. Dodaj katalog repozytorium do ścieżki modułów Odoo 19, odśwież listę aplikacji i zainstaluj moduł. Przetestowano Odoo 19 Community; Enterprise pozostaje niezweryfikowany.
 
 [Strona Digicyfr](https://www.digicyfr.com/pl/odoo/free-modules/cyfr_pos_shift_handover) zawiera zrzuty ekranu i link do pobrania. Zgłaszaj błędy w Issues tego repozytorium bez haseł i danych klientów.
+
+## O Digicyfr
+
+[Digicyfr](https://www.digicyfr.com/pl/about) utrzymuje ten bezpłatny moduł oraz tworzy dedykowane moduły Odoo, integracje i oprogramowanie dla firm. Jeśli potrzebujesz rozwiązania dopasowanego do swojej firmy, [skontaktuj się z Digicyfr](https://www.digicyfr.com/pl/contact) lub napisz na [info@digicyfr.com](mailto:info@digicyfr.com).
+
+Błędy i propozycje zmian dotyczące tego modułu zgłaszaj w Issues tego repozytorium.
