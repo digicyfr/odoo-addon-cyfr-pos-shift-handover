@@ -1,10 +1,26 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head><meta charset="utf-8"><title>POS Shift Handover</title></head>
+<head>
+  <meta charset="utf-8">
+  <title>POS Shift Handover for Odoo 19</title>
+</head>
 <body>
-  <h1>POS Shift Handover</h1>
-  <p>Track operational tasks between Odoo 19 Point of Sale sessions on the same register.</p>
-  <p>Claim and acknowledge work with the logged-in user and timestamps. Managers can review overdue tasks.</p>
-  <p>The native financial close remains unchanged. This first release runs in the Odoo backend.</p>
+  <section class="container">
+    <h1>POS Shift Handover</h1>
+    <p class="lead">Pass operational tasks from a closed POS session to a later open session on the same register, with a recorded claim and acknowledgment.</p>
+    <p>Free, open-source Odoo 19 addon (LGPL-3). Requires the standard <code>point_of_sale</code> module.</p>
+    <h2>What it does</h2>
+    <ul>
+      <li>Prepare a handover and task list from the native POS session form without changing financial close.</li>
+      <li>Claim work only from a later open session on the same register and company; record the acting Odoo user.</li>
+      <li>Acknowledge receipt and review overdue tasks with a manager queue.</li>
+      <li>Use English and Polish backend screens, guides, and safe demo data.</li>
+    </ul>
+    <h2>See it in Odoo</h2>
+    <p>Open an outgoing POS session and use Outgoing Handover; the next session can claim and acknowledge it.</p>
+    <img class="img-fluid" src="main_screenshot.png" width="1440" height="900" alt="Odoo 19 POS handover form with outgoing session, operational tasks, claim button and status">
+    <h2>Compatibility and scope</h2>
+    <p>Tested on Odoo 19 Community with a two-user claim race and English/Polish backend screens. This is a backend workflow: no POS cashier frontend or offline support. A shared database login cannot identify the individual employee. Enterprise compatibility remains unverified.</p>
+  </section>
 </body>
 </html>
